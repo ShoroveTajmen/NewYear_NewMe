@@ -42,3 +42,45 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+/* failure section styles */
+.failure-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.person {
+  width: 450px;
+  height: 600px;
+}
+.failure-title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.failure-description {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.item {
+  list-style: none;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+li i{
+    color: rgb(9, 234, 167);
+    padding-right: 10px;
+}
+.failure-container{
+    background-color: #fff;
+    margin: 130px ;
+}
