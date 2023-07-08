@@ -76,11 +76,49 @@
   font-weight: 400;
   line-height: 26px;
 }
-li i{
-    color: rgb(9, 234, 167);
-    padding-right: 10px;
+li i {
+  color: rgb(9, 234, 167);
+  padding-right: 10px;
 }
-.failure-container{
-    background-color: #fff;
-    margin: 130px ;
+.failure-container {
+  background-color: #fff;
+  margin: 130px;
+}
+
+/* My plan section styles */
+.myplan-title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.all-plans {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.plan {
+  text-align: center;
+}
+.plan-img{
+    padding-bottom: 30px;
+}
+.plans-name {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.plan-description {
+  color: #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
 }
