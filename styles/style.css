@@ -104,8 +104,8 @@ li i {
 .plan {
   text-align: center;
 }
-.plan-img{
-    padding-bottom: 30px;
+.plan-img {
+  padding-bottom: 30px;
 }
 .plans-name {
   color: #151414;
@@ -122,7 +122,42 @@ li i {
   font-size: 25px;
   font-weight: 500;
 }
-.myPlan-container{
-    background-color: #fff;
-    margin: 130px;
+.myPlan-container {
+  background-color: #fff;
+  margin: 130px;
+}
+
+/* call now section style */
+.callNow-container {
+  background-image: url("/images/watch.png"),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-blend-mode: overlay;
+  border-radius: 8px; 
+}
+.call-info{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.callNow-title {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.Clbtn {
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 30px;
+  color: #f15b22;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
 }
